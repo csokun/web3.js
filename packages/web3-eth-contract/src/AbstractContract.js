@@ -57,7 +57,6 @@ export default class AbstractContract extends AbstractWeb3Module {
         this.utils = utils;
         this.formatters = formatters;
         this.abiMapper = this.contractModuleFactory.createAbiMapper();
-        this.options = options;
         this.PromiEvent = PromiEvent;
         this.methodFactory = this.contractModuleFactory.createMethodFactory();
         this.abiModel = this.abiMapper.map(abi);
